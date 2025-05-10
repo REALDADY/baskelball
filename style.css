@@ -1,10 +1,10 @@
-
-
 body {
   margin: 0;
-   font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
   color: #333;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 header {
@@ -28,7 +28,7 @@ nav a {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 15px 25px;
   margin: 5px;
   background-color: #ff7f50;
   border-radius: 10px;
@@ -40,7 +40,7 @@ nav a:hover {
 }
 
 main {
-  padding: 20px;
+  padding: 20px 10px;
   text-align: center;
 }
 
@@ -59,8 +59,7 @@ img {
   border-radius: 10px;
 }
 
-/* Mobile responsive */
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   nav {
     flex-direction: column;
     gap: 10px;
@@ -69,38 +68,22 @@ img {
   nav a {
     display: block;
     width: 80%;
-    margin: 5px auto;
+    margin: 10px auto;
     text-align: center;
   }
 
   .card {
     width: 90%;
     padding: 15px;
+    font-size: 16px;
   }
 
   header {
     font-size: 1.5em;
     padding: 15px;
   }
-}
-/* Base styling remains as-is */
 
-/* Add this at the bottom of your CSS */
-@media screen and (max-width: 600px) {
-  nav a {
-    display: block;
-    margin: 10px auto;
-    width: 80%;
-    text-align: center;
-  }
-
-  main .card {
-    width: 90%;
-    padding: 15px;
-    font-size: 16px;
-  }
-
-  header {
-    font-size: 24px;
+  body {
+    font-size: 14px;
   }
 }
