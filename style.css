@@ -19,6 +19,7 @@ nav {
   display: flex;
   justify-content: center;
   padding: 10px 0;
+  flex-wrap: wrap;
 }
 
 nav a {
@@ -26,7 +27,7 @@ nav a {
   color: white;
   font-weight: bold;
   padding: 10px 20px;
-  margin: 0 10px;
+  margin: 5px;
   background-color: #ff7f50;
   border-radius: 10px;
   transition: background 0.3s ease;
@@ -54,4 +55,29 @@ main {
 img {
   max-width: 100%;
   border-radius: 10px;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav a {
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+    text-align: center;
+  }
+
+  .card {
+    width: 90%;
+    padding: 15px;
+  }
+
+  header {
+    font-size: 1.5em;
+    padding: 15px;
+  }
 }
