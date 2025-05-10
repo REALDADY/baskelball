@@ -1,9 +1,8 @@
-body {
-  font-family: 'Roboto', sans-serif;
-}
+
+
 body {
   margin: 0;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+   font-family: 'Roboto', sans-serif;
   background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
   color: #333;
 }
