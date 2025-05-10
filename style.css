@@ -81,3 +81,24 @@ img {
     padding: 15px;
   }
 }
+/* Base styling remains as-is */
+
+/* Add this at the bottom of your CSS */
+@media screen and (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+  }
+
+  main .card {
+    width: 90%;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  header {
+    font-size: 24px;
+  }
+}
